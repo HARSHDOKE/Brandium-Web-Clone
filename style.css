@@ -1,3 +1,13 @@
+@font-face {
+    font-family: china;
+    src: url(china.ttf);
+}
+
+@font-face {
+    font-family: twk;
+    src: url(Lausanne.ttf);
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -7,4 +17,813 @@
 body,html{
     width: 100vw;
     height: 100vh;
+}
+
+.main{
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo{
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    top: 5.5vh;
+    z-index: 99;
+    left: 1vw;
+}
+
+.logo img{
+    height: 70px;
+    width: 70px;
+}
+
+
+.email{
+    position: fixed;
+    bottom:125px;
+    left: -65px;
+    transform: rotate(-90deg);
+    z-index: 99;
+    mix-blend-mode: difference;
+}
+
+.email a{
+    font-size: 26px;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    font-family: china;
+    font-weight: 400;
+}
+
+.bg-img{
+    height: 155vh;
+    width: 100vw;
+    background-color: #0f0f0f;
+    background-image: url(https://www.brandium.nl/wp-content/uploads/2023/09/bran-hero1-scaled.jpg);
+    background-position: -1% -50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: absolute;
+    left: 1153px;
+    top: 1vh;
+}
+
+.one{
+    font-family: china;
+    font-size: 1.6em;
+    color: #fff;
+    height: 38px;
+    display: block;
+    transform: translateY(80%) scale(1);
+    padding-left: 22px;
+    text-decoration: none;
+    mix-blend-mode: difference;
+    position: relative;
+    z-index: 99;
+    letter-spacing: -4px;
+    line-height: 38px;
+}
+
+.one span{
+    display: inline-block;
+}
+
+.page1{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+
+.sliding-txt{
+    height: 100%;
+    width: 95%;
+    /* background-color: aqua; */
+    margin-left: 70px;
+    /* padding-top: 60px; */
+
+}
+
+.sliding-txt h1{
+    margin-left: -5px;
+}
+
+.sliding-txt h1 span{
+    font-family: sans-serif;
+    font-size: 18vw;
+    font-weight: 300;
+    line-height: 0.85em;
+    color: #fff;
+    mix-blend-mode: difference;
+    letter-spacing: -15px;
+}
+
+.block{
+    position: relative;
+    top: 65px;
+}
+
+.section2{
+    height: 174vh;
+    width: screen;
+    background-color: #0f0f0f;
+    border-radius: 8em 8em 0 0;
+}
+
+.para{
+    width: 100vw;
+    position: relative;
+    top: 205px;
+}
+
+.what{
+    color: #D9FF06;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+}
+
+.description{
+    position: relative;
+    top: 225px;
+}
+
+.description h1{
+    color: #fff;
+    font-family:sans-serif;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 1.2em;
+    letter-spacing: -8px;
+}
+
+.btn{
+    position: relative;
+    top: 305px;
+    display: flex;
+    align-items: center;
+}
+
+.btn a{
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: none;
+    color: #0f0f0f;
+    font-family:sans-serif;
+    padding: 18px 25px;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.btn a::after{
+    content: "";
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #D9FF06;
+    height: 12px;
+    width: 12px;
+    background-position: 0 0px, -15px -15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    opacity: 1;
+    transition: opacity 0.5s cubic-bezier(0.84, -0.01, 0.25, 0.99);
+    margin-left: 22px;
+    animation-name: buttonArrow;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+}
+
+.string{
+    position: relative;
+}
+
+.string svg{
+    position: absolute;
+    top: 1600px;
+    margin-left: -10px;
+}
+
+.section3{
+    height: 490vh;
+    width: 100vw;
+    background-color: #0f0f0f;
+}
+
+.featured-txt h1{
+    font-family: Sans-serif;
+    font-size: 180px;
+    font-weight: 400;
+    line-height: 243px;
+    letter-spacing: -0.12em;
+    color: #fff;
+    text-align: center;
+}
+
+.feature-container{
+    height: 270vh;
+    width: 100vw;
+    background-color: #0f0f0f;
+}
+
+.inner-container1{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left{
+    height: 100%;
+    width: 45vw;
+    border-radius: 30px;
+    margin-left: 10px;
+    background-image: url("https://www.brandium.nl/wp-content/uploads/De-Online-Psycholoog-brandium-work.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.right{
+    height: 100%;
+    width: 45vw;
+    /* background-color: green; */
+    border-radius: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.video{
+    height: 100vh;
+    width: 45vw;
+    overflow: hidden;
+    border-radius: 30px;
+    background-position: center;
+}
+
+.video video{
+    height: 150vh;
+    width: 50vw;
+    object-fit: contain;
+    object-position: 500% 0%;
+}
+
+.content-container{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-content{
+    height: 100%;
+    width: 45vw;
+    margin-left: 10px;
+}
+
+.left-content h1{
+    color: #fff;
+    font-family: china;
+    font-weight: 200;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.left-content h3{
+    color: #969696;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.right-content{
+    height: 100%;
+    width: 45vw;
+    margin-right: 30px;
+}
+
+.right-content h1{
+    color: #fff;
+    font-family: china;
+    font-weight: 200;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.right-content h3{
+    color: #969696;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.second{
+    margin-top: 200px;
+}
+
+.img1{
+    background-image: url("https://www.brandium.nl/wp-content/uploads/Apostrophe_brandium-1-scaled.webp");
+}
+
+.img2{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://www.brandium.nl/wp-content/uploads/2023/04/padthai-web8-scaled.jpg");
+}
+
+.more{
+    height: 150vh;
+    width: 100vw;
+    background-color: #0f0f0f;
+    display: flex;
+    align-items: center;
+}
+
+.left-para{
+    height: 100%;
+    width: 50vw;
+}
+
+.left-para h1{
+    font-family: sans-serif;
+    font-size: 33px;
+    color: #fff;
+    letter-spacing: -0.15em;
+    font-weight: 100;
+    line-height: 1em;
+    white-space: nowrap;
+}
+
+.right-btn{
+    height: 100%;
+    width: 50vw;
+}
+
+.btn1{
+    position: relative;
+    z-index: 2;
+    top: 18vh;
+    left: 31.5vw;
+}
+
+.para-btn{
+    display: flex;
+    align-items: center;
+}
+
+.more svg{
+    width: 100vw;
+}
+
+.stg1{
+    position: relative;
+}
+
+.stg1 svg{
+    position: absolute;
+    top: -500px;
+
+}
+
+.section4{
+    height: 320vh;
+    width: 100vw;
+    background-color: #0f0f0f;
+}
+
+.rounded-page{
+    height: 100%;
+    width: 99vw;
+    background-color: #F9F7F4;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+}
+
+.txt-container{
+    padding-top: 220px;
+}
+
+.txt-container h1{
+    font-family: Sans-serif;
+    font-size: 180px;
+    font-weight: 400;
+    line-height: 243px;
+    letter-spacing: -0.17em;
+    color: #0f0f0f;
+    text-align: center;
+}
+
+.cards{
+    height: 100vw;
+    margin-top: 80px;
+    width: 1250px;
+    margin-left: calc(100vw - 1250px) ;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #0f0f0f;
+}
+
+.card a{
+    text-decoration: none;
+    color: #0f0f0f;
+}
+
+.card h1{
+    font-size: 4rem;
+    font-family: sans-serif;
+    font-weight: 200;
+    width: 100vw;
+    line-height: 7rem;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+}
+
+.img-con{
+    height: 85vh;
+    width: 30vw;
+    background-color: red;
+    overflow: hidden;
+    display: none;
+}
+
+.img-con img{
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.black-btn a{
+    background-color: #D9FF06;
+    position: relative;
+    top: -250px;
+    margin: auto;
+    left: -50px;
+}
+
+.black-btn a::after{
+    background-color: #0f0f0f;
+}
+
+.section5{
+    height: 200vh;
+    width: 100vw;
+    background-color: #F9F7F4;
+}
+
+.client{
+    padding-top: 20px;
+}
+
+.client h1{
+    font-family: Sans-serif;
+    font-size: 180px;
+    font-weight: 400;
+    line-height: 150px;
+    letter-spacing: -0.15em;
+    color: #0f0f0f;
+    text-align: center;
+}
+
+
+.clients-img{
+    height: 100vh;
+    width: 100vw;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.first-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.first-line img{
+    width: 120px;
+}
+
+.section6{
+    width: 100vw;
+    height: 220vh;
+    background-color: #F9F7F4;
+}
+
+.latest h1{
+    font-family: Sans-serif;
+    font-size: 180px;
+    font-weight: 400;
+    line-height: 150px;
+    letter-spacing: -0.15em;
+    color: #0f0f0f;
+    text-align: center;
+}
+
+.border{
+    display: inline-block;
+    width: 85vw;
+    margin: auto;
+    height: 1vw;
+    border-bottom: 1px solid #d0d0d0;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.pink{
+    height: 100vh;
+    width: 100vw;
+    cursor:pointer;
+}
+
+.awards-conainer{
+    height: 75vh;
+    width: 85vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.left-container{
+    height: 100%;
+    width: 45vw;
+}
+
+.right-container{
+    height: 100%;
+    width: 55vw;
+}
+
+.awards-p{
+    margin: 40px 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.awards-p a{
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 5px 10px;
+    border: 1px solid #d0d0d0;
+    color: #000;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.awards-p p{
+    font-size: 15px;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: #747474;
+}
+
+.heading h3{
+    margin: 85px 10px;
+    font-family: Sans-serif;
+    font-size: 65px;
+    font-weight: 400;
+    color: #0f0f0f;
+    text-align: left;
+}
+
+.date p{
+    font-size: 15px;
+    font-weight: 100;
+    margin:85px 10px;
+    font-family: sans-serif;
+    color: #747474;
+}
+
+.paragraph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.paragraph p{
+    margin-top: 50px;
+    margin-left: -20px;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: #747474;
+}
+
+.marquee{
+    height: 250px;
+    width: 100vw;
+    background-color: #D9FF06;
+    display: flex;
+    align-items: center;
+
+}
+
+.marquee-part{
+    display: flex;
+    align-items: center;
+}
+
+.marquee-part p{
+    font-size: 4.5em;
+    padding: 0 40px;
+    color: #000;
+    letter-spacing: -0.01em;
+    font-family:  china;
+    font-weight: bold;
+}
+
+.marquee-part img{
+    height: 100px;
+    width: 85px;
+}
+
+.footer{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0f0f0f;
+    display: flex;
+    align-items: center;
+}
+
+.left-side{
+    height: 100vh;
+    width: 33.33vw;
+}
+
+.media{
+    display: flex;
+}
+
+.middle{
+    height: 100vh;
+    width: 33.33vw;
+}
+
+.right-side{
+    height: 100vh;
+    width: 33.33vw;
+}
+
+.follow-us{
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.follow-us h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #D9FF06;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.social a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-weight: 200;
+}
+
+.navigation{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.navigation h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #D9FF06;
+}
+
+.company-name{
+    margin-top: 150px;
+    margin-left: 10px;
+}
+
+.company-name p{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: #fff;
+}
+
+.rights{
+    margin-top:82vh;
+    margin-left: 9vw;
+}
+
+.rights p{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: #fff;
+}
+
+.rights a{
+    text-align: center;
+    margin-left: 24px;
+    font-size: 17px;
+    color: #fff;
+}
+
+.connect{
+    margin-top: 100px;
+}
+
+.connect p{
+    color: #D9FF06;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 200;
+    text-align: right;
+}
+
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+}
+
+.eamil{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.eamil span{
+    display: inline-block;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+.phone{
+    margin-top: 40px;
+}
+
+.globe{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 160px;
+    margin-left: 14.7vw;
+}
+
+.globe i{
+    color: #fff;
+    font-size: 20px;
+}
+
+.globe p{
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 200;
 }
