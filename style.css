@@ -1,11 +1,11 @@
 @font-face {
     font-family: china;
-    src: url(china.ttf);
+    src: url(Accets/Fonts/china.ttf);
 }
 
 @font-face {
     font-family: twk;
-    src: url(Lausanne.ttf);
+    src: url(Accets/Fonts/Lausanne.ttf);
 }
 
 *{
@@ -35,8 +35,8 @@ body,html{
 }
 
 .logo img{
-    height: 70px;
-    width: 70px;
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -62,7 +62,7 @@ body,html{
     height: 155vh;
     width: 100vw;
     background-color: #0f0f0f;
-    background-image: url(https://www.brandium.nl/wp-content/uploads/2023/09/bran-hero1-scaled.jpg);
+    background-image: url("Accets/images/brandium\ girl.jpg");
     background-position: -1% -50vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -252,7 +252,7 @@ body,html{
     width: 45vw;
     border-radius: 30px;
     margin-left: 10px;
-    background-image: url("https://www.brandium.nl/wp-content/uploads/De-Online-Psycholoog-brandium-work.webp");
+    background-image: url("Accets/images/phone.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -340,14 +340,22 @@ body,html{
 }
 
 .img1{
-    background-image: url("https://www.brandium.nl/wp-content/uploads/Apostrophe_brandium-1-scaled.webp");
+    height: 100%;
+    width: 45vw;
+    border-radius: 30px;
+    margin-left: 10px;
+    background-image: url("Accets/images/photo2.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
 }
 
 .img2{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("https://www.brandium.nl/wp-content/uploads/2023/04/padthai-web8-scaled.jpg");
+    background-image: url("Accets/images/photo32.jpg");
 }
 
 .more{
@@ -699,12 +707,13 @@ body,html{
 
 .right-side{
     height: 100vh;
+    margin-right: 100px;
     width: 33.33vw;
 }
 
 .follow-us{
     margin-top: 100px;
-    margin-left: 10px;
+    margin-left: 100px;
 }
 
 .follow-us h3{
@@ -743,7 +752,7 @@ body,html{
 
 .company-name{
     margin-top: 150px;
-    margin-left: 10px;
+    margin-left: 100px;
 }
 
 .company-name p{
@@ -827,3 +836,4 @@ body,html{
     font-family: sans-serif;
     font-weight: 200;
 }
+
