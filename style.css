@@ -689,6 +689,7 @@ body,html{
     background-color: #0f0f0f;
     display: flex;
     align-items: center;
+    padding: 30px;
 }
 
 .left-side{
@@ -709,6 +710,7 @@ body,html{
     height: 100vh;
     margin-right: 100px;
     width: 33.33vw;
+    padding-right: 10px;
 }
 
 .follow-us{
