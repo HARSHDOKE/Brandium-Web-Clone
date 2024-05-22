@@ -681,6 +681,7 @@ body,html{
     background-color: #0f0f0f;
     display: flex;
     align-items: center;
+    padding: 30px;
 }
 
 .left-side{
@@ -700,6 +701,7 @@ body,html{
 .right-side{
     height: 100vh;
     width: 33.33vw;
+    padding-right: 10px;
 }
 
 .follow-us{
