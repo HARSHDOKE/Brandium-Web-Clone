@@ -715,7 +715,7 @@ body,html{
 
 .follow-us{
     margin-top: 100px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 .follow-us h3{
@@ -754,7 +754,6 @@ body,html{
 
 .company-name{
     margin-top: 150px;
-    margin-left: 100px;
 }
 
 .company-name p{
@@ -765,7 +764,7 @@ body,html{
 }
 
 .rights{
-    margin-top:82vh;
+    margin-top:82vh; 
     margin-left: 9vw;
 }
 
