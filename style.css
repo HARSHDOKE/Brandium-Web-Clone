@@ -708,14 +708,12 @@ body,html{
 
 .right-side{
     height: 100vh;
-    margin-right: 100px;
     width: 33.33vw;
     padding-right: 10px;
 }
 
 .follow-us{
     margin-top: 100px;
-    margin-left: 100px;
 }
 
 .follow-us h3{
@@ -754,7 +752,6 @@ body,html{
 
 .company-name{
     margin-top: 150px;
-    margin-left: 100px;
 }
 
 .company-name p{
