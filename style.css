@@ -21,8 +21,8 @@ body,html{
 
 .main{
     overflow-x: hidden;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
 .logo{
@@ -116,6 +116,10 @@ body,html{
 
 .sliding-txt h1{
     margin-left: -5px;
+    color: white;
+    mix-blend-mode: difference;
+    /* overflow: hidden; */
+    /* overflow-y: hidden; */
 }
 
 .sliding-txt h1 span{
@@ -126,6 +130,7 @@ body,html{
     color: #fff;
     mix-blend-mode: difference;
     letter-spacing: -15px;
+    /* display: inline-block; */
 }
 
 .block{
