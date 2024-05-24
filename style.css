@@ -144,6 +144,7 @@ body,html{
     width: 100vw;
     position: relative;
     top: 205px;
+    padding-left: 15px;
 }
 
 .what{
@@ -156,6 +157,7 @@ body,html{
 
 .description{
     position: relative;
+    padding-left: 15px;
     top: 225px;
 }
 
@@ -173,6 +175,7 @@ body,html{
     top: 305px;
     display: flex;
     align-items: center;
+    padding-left: 15px;
 }
 
 .btn a{
@@ -209,6 +212,7 @@ body,html{
 
 .string{
     position: relative;
+    padding-left: 15px;
 }
 
 .string svg{
@@ -218,9 +222,10 @@ body,html{
 }
 
 .section3{
-    height: 490vh;
+    height: 440vh;
     width: 100vw;
     background-color: #0f0f0f;
+    margin-top: -100px;
 }
 
 .featured-txt h1{
@@ -364,11 +369,13 @@ body,html{
     background-color: #0f0f0f;
     display: flex;
     align-items: center;
+    margin-top: -350px;
 }
 
 .left-para{
     height: 100%;
     width: 50vw;
+    padding-left: 15px;
 }
 
 .left-para h1{
@@ -390,7 +397,7 @@ body,html{
     position: relative;
     z-index: 2;
     top: 18vh;
-    left: 31.5vw;
+    left: 28.5vw;
 }
 
 .para-btn{
@@ -762,7 +769,7 @@ body,html{
 }
 
 .rights{
-    margin-top:82vh;
+    margin-top:82vh; 
     margin-left: 9vw;
 }
 
