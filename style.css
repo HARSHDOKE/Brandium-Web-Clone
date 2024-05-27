@@ -176,7 +176,7 @@ body,html{
     width: 100vw;
     position: relative;
     top: 205px;
-    padding-left: 15px;
+    padding-left: 30px;
 }
 
 .what{
@@ -189,7 +189,7 @@ body,html{
 
 .description{
     position: relative;
-    padding-left: 15px;
+    padding-left: 30px;
     top: 225px;
 }
 
@@ -207,7 +207,7 @@ body,html{
     top: 305px;
     display: flex;
     align-items: center;
-    padding-left: 15px;
+    padding-left: 30px;
 }
 
 .btn a{
@@ -244,7 +244,7 @@ body,html{
 
 .string{
     position: relative;
-    padding-left: 15px;
+    padding-left: 30px;
 }
 
 .string svg{
