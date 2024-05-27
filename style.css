@@ -26,18 +26,18 @@ body,html{
 }
 
 .cursor{
-    width: 15px;
+    width: 1.098vw;
     pointer-events: none;
     position: absolute;
     z-index: 99;
-    height: 15px;
+    height: 1.098vw;
     background-color: #D9FF06;
     border-radius: 50%;
 }
 
 .logo{
-    height: 70px;
-    width: 70px;
+    height:5.124vw;
+    width: 5.124vw;
     position: fixed;
     top: 5.5vh;
     z-index: 99;
@@ -52,15 +52,15 @@ body,html{
 
 .email{
     position: fixed;
-    bottom:125px;
-    left: -65px;
+    bottom:16.276vh;
+    left: -4.758vw;
     transform: rotate(-90deg);
     z-index: 99;
     mix-blend-mode: difference;
 }
 
 .email a{
-    font-size: 26px;
+    font-size: 1.625em;
     background-color: transparent;
     color: #fff;
     text-decoration: none;
