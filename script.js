@@ -1,9 +1,10 @@
 
+
 function txtanimation(){
     gsap.from(".firstline h1",{
         y:200,
         duration:1,
-        ease: "power1.out"
+        ease: "power1.out",
     })
     
     gsap.from(".firstline h1 span",{
